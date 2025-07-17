@@ -1,0 +1,69 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #1e1e2f;
+    -fx-padding: 20;
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+.header {
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #66ccff;
+}
+
+.status {
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffcc00;
+}
+
+.text-field {
+    -fx-font-size: 16px;
+    -fx-pref-height: 44px;
+    -fx-pref-width: 200px;
+    -fx-background-color: #2a2a3f;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #444;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.url-field {
+    -fx-pref-width: 400px;
+}
+
+.dimension-field {
+    -fx-pref-width: 80px;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-pref-height: 44px;
+    -fx-pref-width: 120px;
+    -fx-background-color: #3399ff;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+    -fx-background-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #4db8ff;
+}
+
+.toast-label {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-padding: 12 24 12 24;
+    -fx-background-radius: 10;
+    -fx-font-size: 14px;
+}
+
+.toast-container {
+    -fx-background-radius: 10;
+}
+
+.progress-indicator {
+    -fx-progress-color: #4a90e2;
+}
